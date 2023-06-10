@@ -10,7 +10,7 @@ paige:
     #paige-title {
         font-size: 5rem;
     }
-title: "Paige"
+title: "Alexander Silva"
 ---
 
 <p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="https://images.unsplash.com/photo-1490604001847-b712b0c2f967?w=1296" width="100%" %}}</p>
@@ -25,10 +25,10 @@ title: "Paige"
     </div>
 </div>
 
-<p class="text-center">
+<! –– <p class="text-center">
     <a class="lead" href="https://github.com/willfaught/paige">Install it now.</a>
-</p>
+</p> ––>
 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
-    {{< paige/icon class="bi bi-github" name="GitHub" url="https://github.com/willfaught/paige" >}}
+    {{< paige/icon class="bi bi-github" name="GitHub" url="https://github.com/alecsilva" >}}
 </div>
