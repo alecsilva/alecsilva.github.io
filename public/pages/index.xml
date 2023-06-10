@@ -6,16 +6,15 @@
     <description>Recent content in Pages on Alexander Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://alecsilva.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alecsilva.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>Sobre mí</title>
       <link>https://alecsilva.github.io/pages/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://alecsilva.github.io/pages/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
-https://github.com/yuin/goldmark https://github.</description>
+      <description>Soy Alexander de Perú 🇵🇪, un apasionado de la tecnología. Con experiencia en migración de datos, automatización de procesos y administración de infraestructura, he adquirido habilidades en áreas como SAP, ETL, extracción de datos mediante API&amp;rsquo;s, implementación 2FA y más.
+Mi trayectoria laboral me ha llevado a interesarme cada vez más en el campo de la ciberseguridad, donde busco expandir mis conocimientos y contribuir a la protección de las empresas contra las amenazas.</description>
     </item>
     
   </channel>

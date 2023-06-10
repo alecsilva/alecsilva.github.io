@@ -1,24 +1,16 @@
 ---
-title: About
-description: 'Hugo, the world''s fastest framework for building websites'
-date: '2019-02-28'
-author: Hugo Authors
+title: Sobre mí
+description: 'Sobre mí'
+date: '2023-06-10'
+author: Alexander Silva
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Soy Alexander de Perú 🇵🇪, un apasionado de la tecnología. Con experiencia en migración de datos, automatización de procesos y administración de infraestructura, he adquirido habilidades en áreas como SAP, ETL, extracción de datos mediante API's, implementación 2FA y más.
 
-Hugo makes use of a variety of open source projects including:
+Mi trayectoria laboral me ha llevado a interesarme cada vez más en el campo de la ciberseguridad, donde busco expandir mis conocimientos y contribuir a la protección de las empresas contra las amenazas. Mi enfoque se basa en la atención al detalle, la creatividad y la búsqueda constante de soluciones innovadoras.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Además de mi pasión por la tecnología, también disfruto de la programación en Python. Creo firmemente en el aprendizaje continuo y me esfuerzo por mantenerme actualizado en las últimas tendencias y avances en mi campo.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Si estás buscando a alguien con una mentalidad orientada a la innovación, habilidades técnicas sólidas y un espíritu de aprendizaje constante, estás en el lugar correcto. Estoy emocionado de embarcarme en nuevos desafíos y contribuir al éxito de tu organización.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+¡Gracias por visitar mi página y no dudes en contactarme para cualquier oportunidad de colaboración!
