@@ -25,10 +25,6 @@ title: "Alexander Silva"
     </div>
 </div>
 
-<! –– <p class="text-center">
-    <a class="lead" href="https://github.com/willfaught/paige">Install it now.</a>
-</p> ––>
-
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
     {{< paige/icon class="bi bi-github" name="GitHub" url="https://github.com/alecsilva" >}}
 </div>

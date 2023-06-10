@@ -1,5 +1,4 @@
 baseurl: "https://example.com"
-copyright: "© Will Faught"
 enablerobotstxt: true
 languagecode: "en-us"
 languages:
@@ -78,5 +77,5 @@ taxonomies:
   category: "categories"
   series: "series"
   tag: "tags"
-timezone: "America/Los_Angeles"
+timezone: "America/Lima"
 titlecasestyle: "Go"
