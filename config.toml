@@ -43,7 +43,7 @@ disqusShortname = ''
     weight = 20
   [[menu.main]]
     pageRef="about"
-    name = 'Sobre mi'
+    name = 'Sobre mí'
     url = '/about/'
     weight = 30
 
