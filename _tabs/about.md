@@ -11,7 +11,6 @@ I'm a **Cybersecurity Specialist** with a strong focus on **Cloud Security**, wo
 ## 🛠️ Tech & Projects
 - **Cybersecurity & Cloud**: I deploy and manage **Fortinet services**, secure **cloud infrastructures**, and optimize **network security**.
 - **Machine Learning & Automation**: I’m currently working on **AI-driven pest control optimization in banana production** and **computer vision for waste classification**.
-- **Infrastructure & Networking**: Managing **bare metal servers on Equinix**, deploying **EVE-NG**, and setting up **complex network topologies**.
 - **Development**: Building **FastAPI** backends, integrating **React frontends**, and using **MongoDB Atlas** for scalable databases.
 
 ## 🚀 What I’m Building
