@@ -1,0 +1,69 @@
+---
+layout: post
+title: Scan Surprise - PicoCTF
+date: 2025-02-01 11:32 -0500
+categories: [CTF]
+tag: [picoctf, forencis]
+author: alec
+description: Scan Surprise WriteUp
+---
+
+<table>
+  <tr><td><strong>Difficulty</strong></td><td>Easy</td></tr>
+  <tr><td><strong>Category</strong></td><td>Forensics</td></tr>
+  <tr><td><strong>Event</strong></td><td>picocTF 2024</td></tr>
+</table>
+
+Hi everyone.
+
+In this blog we solve the CTF Scan Surprise of PicoCTF.
+
+So, by the tags we know that we will use shell and qrcode. When we start it will give us a command to connect via SSH.
+
+![img-description](/scan-surprise-picoctf.png)
+_Scan Surprise_
+
+The page gives us the following command to connect via SSH `ssh -p 61677 ctf-player@rhea.picoctf.net`. 
+
+> Just to remember, the option `-p` in ssh it serves to specify the port.
+{: .prompt-info }
+
+After execurting the command type the password provided by the website.
+
+![img-description](/verify-ssh.png)
+_SSH Connection_
+
+Once inside the server run `ls` to list the files in the directory. We see that there is a file called **checksum.txt**, we open it with `cat checksum.txt`.
+
+![img-description](/verify-ls.png)
+_Command ls and cat_
+
+It look like a sha256 checksum. Now we entrer in the files directory with `cd files`, we see that have several files, we need to find the file with the same sha256 that is inside **checksum.txt**
+
+![img-description](/verify-files.png)
+_List of files_
+
+To know this we can use the following command:
+
+ ```shell
+ sha256sum files/*
+ ``` 
+
+However this shows us the checksum of all the files, we need to find the one that matches the known checksum.
+
+![img-description](/verify-sha256.png)
+_Checksum_
+
+For this we can use **grep**. So, the command would look like this:
+
+ ```shell
+ sha256sum files/* | grep checksum
+ ``` 
+
+![img-description](/verify-grep.png)
+_Command grep_
+
+Now with the `decrypt.sh` file, we decrypt and get the flag.
+
+![img-description](/verify-flag.png)
+_Flag_
