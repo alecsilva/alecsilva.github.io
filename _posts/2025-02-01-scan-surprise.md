@@ -18,52 +18,21 @@ Hi everyone.
 
 In this blog we solve the CTF Scan Surprise of PicoCTF.
 
-So, by the tags we know that we will use shell and qrcode. When we start it will give us a command to connect via SSH.
+So, by the tags we know that we will use shell and qrcode. And it give us a zip file named **challengue.zip**, download it.
 
 ![img-description](/scan-surprise-picoctf.png)
 _Scan Surprise_
 
-The page gives us the following command to connect via SSH `ssh -p 61677 ctf-player@rhea.picoctf.net`. 
+Once downloaded it show a QR code named **flag.png**.
 
-> Just to remember, the option `-p` in ssh it serves to specify the port.
-{: .prompt-info }
+![img-description](/scan-surprise-file.png)
+_QR Code_
 
-After execurting the command type the password provided by the website.
+Scan it with any website that allow scan QR codes.
 
-![img-description](/verify-ssh.png)
-_SSH Connection_
-
-Once inside the server run `ls` to list the files in the directory. We see that there is a file called **checksum.txt**, we open it with `cat checksum.txt`.
-
-![img-description](/verify-ls.png)
-_Command ls and cat_
-
-It look like a sha256 checksum. Now we entrer in the files directory with `cd files`, we see that have several files, we need to find the file with the same sha256 that is inside **checksum.txt**
-
-![img-description](/verify-files.png)
-_List of files_
-
-To know this we can use the following command:
-
- ```shell
- sha256sum files/*
- ``` 
-
-However this shows us the checksum of all the files, we need to find the one that matches the known checksum.
-
-![img-description](/verify-sha256.png)
-_Checksum_
-
-For this we can use **grep**. So, the command would look like this:
-
- ```shell
- sha256sum files/* | grep checksum
- ``` 
-
-![img-description](/verify-grep.png)
-_Command grep_
-
-Now with the `decrypt.sh` file, we decrypt and get the flag.
-
-![img-description](/verify-flag.png)
+![img-description](/scan-surprise-flag.png)
 _Flag_
+
+This challange was simple, as you can see, only scan it the QR Code we can see the flag.
+
+>I would appreciate you feedback or any comments.
